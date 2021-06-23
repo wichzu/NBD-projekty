@@ -1,0 +1,30 @@
+[
+  {
+    "_id": {"$oid": "609174ebd43c335929933f81"},
+    "birth_date": "2013-05-23T16:10:58Z",
+    "credit": [
+      {
+        "type": "jcb",
+        "number": "4017957170327",
+        "currency": "RUB",
+        "balance": "4463.86"
+      }
+    ],
+    "description": "ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar",
+    "email": "anichols3@google.co.uk",
+    "first_name": "Anthony",
+    "height": "162.68",
+    "job": "Internal Auditor",
+    "last_name": "Nichols",
+    "location": {
+      "city": "Jepuro",
+      "address": {
+        "streetname": "La Follette",
+        "streetnumber": "03661"
+      }
+    },
+    "nationality": "Indonesia",
+    "sex": "Male",
+    "weight": "68.37"
+  }
+]
