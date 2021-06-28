@@ -1,0 +1,513 @@
+[
+        {
+                "_id" : "MMK",
+                "value" : {
+                        "SumOfFunds" : 4629,
+                        "AverageOfFunds" : 4629
+                }
+        },
+        {
+                "_id" : "ISK",
+                "value" : {
+                        "SumOfFunds" : 4316,
+                        "AverageOfFunds" : 4316
+                }
+        },
+        {
+                "_id" : "BOB",
+                "value" : {
+                        "SumOfFunds" : 5263,
+                        "AverageOfFunds" : 5263
+                }
+        },
+        {
+                "_id" : "MNT",
+                "value" : {
+                        "SumOfFunds" : 21713,
+                        "AverageOfFunds" : 5428.25
+                }
+        },
+        {
+                "_id" : "IRR",
+                "value" : {
+                        "SumOfFunds" : 26502,
+                        "AverageOfFunds" : 4417
+                }
+        },
+        {
+                "_id" : "ALL",
+                "value" : {
+                        "SumOfFunds" : 3325,
+                        "AverageOfFunds" : 3325
+                }
+        },
+        {
+                "_id" : "USD",
+                "value" : {
+                        "SumOfFunds" : 80643,
+                        "AverageOfFunds" : 5040.1875
+                }
+        },
+        {
+                "_id" : "ZAR",
+                "value" : {
+                        "SumOfFunds" : 11789,
+                        "AverageOfFunds" : 3929.6666666666665
+                }
+        },
+        {
+                "_id" : "IQD",
+                "value" : {
+                        "SumOfFunds" : 4269,
+                        "AverageOfFunds" : 4269
+                }
+        },
+        {
+                "_id" : "RWF",
+                "value" : {
+                        "SumOfFunds" : 4632,
+                        "AverageOfFunds" : 4632
+                }
+        },
+        {
+                "_id" : "KYD",
+                "value" : {
+                        "SumOfFunds" : 3760,
+                        "AverageOfFunds" : 3760
+                }
+        },
+        {
+                "_id" : "VEF",
+                "value" : {
+                        "SumOfFunds" : 8333,
+                        "AverageOfFunds" : 4166.5
+                }
+        },
+        {
+                "_id" : "IDR",
+                "value" : {
+                        "SumOfFunds" : 323888,
+                        "AverageOfFunds" : 4907.393939393939
+                }
+        },
+        {
+                "_id" : "MKD",
+                "value" : {
+                        "SumOfFunds" : 3835,
+                        "AverageOfFunds" : 3835
+                }
+        },
+        {
+                "_id" : "ZWL",
+                "value" : {
+                        "SumOfFunds" : 5792,
+                        "AverageOfFunds" : 5792
+                }
+        },
+        {
+                "_id" : "MXN",
+                "value" : {
+                        "SumOfFunds" : 50224,
+                        "AverageOfFunds" : 5022.4
+                }
+        },
+        {
+                "_id" : "NZD",
+                "value" : {
+                        "SumOfFunds" : 5328,
+                        "AverageOfFunds" : 5328
+                }
+        },
+        {
+                "_id" : "GBP",
+                "value" : {
+                        "SumOfFunds" : 6149,
+                        "AverageOfFunds" : 6149
+                }
+        },
+        {
+                "_id" : "BYR",
+                "value" : {
+                        "SumOfFunds" : 5095,
+                        "AverageOfFunds" : 5095
+                }
+        },
+        {
+                "_id" : "GTQ",
+                "value" : {
+                        "SumOfFunds" : 5806,
+                        "AverageOfFunds" : 5806
+                }
+        },
+        {
+                "_id" : "UAH",
+                "value" : {
+                        "SumOfFunds" : 40468,
+                        "AverageOfFunds" : 5058.5
+                }
+        },
+        {
+                "_id" : "DOP",
+                "value" : {
+                        "SumOfFunds" : 20672,
+                        "AverageOfFunds" : 5168
+                }
+        },
+        {
+                "_id" : "TZS",
+                "value" : {
+                        "SumOfFunds" : 7052,
+                        "AverageOfFunds" : 3526
+                }
+        },
+        {
+                "_id" : "CAD",
+                "value" : {
+                        "SumOfFunds" : 58371,
+                        "AverageOfFunds" : 5306.454545454545
+                }
+        },
+        {
+                "_id" : "ILS",
+                "value" : {
+                        "SumOfFunds" : 16295,
+                        "AverageOfFunds" : 5431.666666666667
+                }
+        },
+        {
+                "_id" : "NOK",
+                "value" : {
+                        "SumOfFunds" : 4773,
+                        "AverageOfFunds" : 4773
+                }
+        },
+        {
+                "_id" : "XAF",
+                "value" : {
+                        "SumOfFunds" : 14094,
+                        "AverageOfFunds" : 4698
+                }
+        },
+        {
+                "_id" : "VUV",
+                "value" : {
+                        "SumOfFunds" : 6418,
+                        "AverageOfFunds" : 6418
+                }
+        },
+        {
+                "_id" : "MAD",
+                "value" : {
+                        "SumOfFunds" : 3818,
+                        "AverageOfFunds" : 3818
+                }
+        },
+        {
+                "_id" : "RSD",
+                "value" : {
+                        "SumOfFunds" : 4276,
+                        "AverageOfFunds" : 4276
+                }
+        },
+        {
+                "_id" : "RUB",
+                "value" : {
+                        "SumOfFunds" : 119736,
+                        "AverageOfFunds" : 4989
+                }
+        },
+        {
+                "_id" : "MGA",
+                "value" : {
+                        "SumOfFunds" : 14559,
+                        "AverageOfFunds" : 4853
+                }
+        },
+        {
+                "_id" : "XOF",
+                "value" : {
+                        "SumOfFunds" : 17880,
+                        "AverageOfFunds" : 5960
+                }
+        },
+        {
+                "_id" : "XPF",
+                "value" : {
+                        "SumOfFunds" : 4759,
+                        "AverageOfFunds" : 4759
+                }
+        },
+        {
+                "_id" : "SRD",
+                "value" : {
+                        "SumOfFunds" : 5286,
+                        "AverageOfFunds" : 5286
+                }
+        },
+        {
+                "_id" : "TJS",
+                "value" : {
+                        "SumOfFunds" : 4087,
+                        "AverageOfFunds" : 4087
+                }
+        },
+        {
+                "_id" : "CLP",
+                "value" : {
+                        "SumOfFunds" : 21007,
+                        "AverageOfFunds" : 5251.75
+                }
+        },
+        {
+                "_id" : "YER",
+                "value" : {
+                        "SumOfFunds" : 13711,
+                        "AverageOfFunds" : 4570.333333333333
+                }
+        },
+        {
+                "_id" : "BGN",
+                "value" : {
+                        "SumOfFunds" : 21200,
+                        "AverageOfFunds" : 5300
+                }
+        },
+        {
+                "_id" : "HRK",
+                "value" : {
+                        "SumOfFunds" : 24352,
+                        "AverageOfFunds" : 4870.4
+                }
+        },
+        {
+                "_id" : "PKR",
+                "value" : {
+                        "SumOfFunds" : 18936,
+                        "AverageOfFunds" : 4734
+                }
+        },
+        {
+                "_id" : "KRW",
+                "value" : {
+                        "SumOfFunds" : 13378,
+                        "AverageOfFunds" : 6689
+                }
+        },
+        {
+                "_id" : "ZMW",
+                "value" : {
+                        "SumOfFunds" : 5569,
+                        "AverageOfFunds" : 5569
+                }
+        },
+        {
+                "_id" : "CUP",
+                "value" : {
+                        "SumOfFunds" : 15016,
+                        "AverageOfFunds" : 5005.333333333333
+                }
+        },
+        {
+                "_id" : "PYG",
+                "value" : {
+                        "SumOfFunds" : 4874,
+                        "AverageOfFunds" : 4874
+                }
+        },
+        {
+                "_id" : "ARS",
+                "value" : {
+                        "SumOfFunds" : 23239,
+                        "AverageOfFunds" : 4647.8
+                }
+        },
+        {
+                "_id" : "UZS",
+                "value" : {
+                        "SumOfFunds" : 3573,
+                        "AverageOfFunds" : 3573
+                }
+        },
+        {
+                "_id" : "COP",
+                "value" : {
+                        "SumOfFunds" : 19745,
+                        "AverageOfFunds" : 4936.25
+                }
+        },
+        {
+                "_id" : "LYD",
+                "value" : {
+                        "SumOfFunds" : 8764,
+                        "AverageOfFunds" : 4382
+                }
+        },
+        {
+                "_id" : "CZK",
+                "value" : {
+                        "SumOfFunds" : 37152,
+                        "AverageOfFunds" : 4644
+                }
+        },
+        {
+                "_id" : "BRL",
+                "value" : {
+                        "SumOfFunds" : 49627,
+                        "AverageOfFunds" : 4511.545454545455
+                }
+        },
+        {
+                "_id" : "NGN",
+                "value" : {
+                        "SumOfFunds" : 24944,
+                        "AverageOfFunds" : 4157.333333333333
+                }
+        },
+        {
+                "_id" : "HNL",
+                "value" : {
+                        "SumOfFunds" : 16513,
+                        "AverageOfFunds" : 5504.333333333333
+                }
+        },
+        {
+                "_id" : "THB",
+                "value" : {
+                        "SumOfFunds" : 23020,
+                        "AverageOfFunds" : 4604
+                }
+        },
+        {
+                "_id" : "PEN",
+                "value" : {
+                        "SumOfFunds" : 23225,
+                        "AverageOfFunds" : 4645
+                }
+        },
+        {
+                "_id" : "AFN",
+                "value" : {
+                        "SumOfFunds" : 16754,
+                        "AverageOfFunds" : 5584.666666666667
+                }
+        },
+        {
+                "_id" : "EGP",
+                "value" : {
+                        "SumOfFunds" : 5579,
+                        "AverageOfFunds" : 5579
+                }
+        },
+        {
+                "_id" : "AMD",
+                "value" : {
+                        "SumOfFunds" : 24607,
+                        "AverageOfFunds" : 4921.4
+                }
+        },
+        {
+                "_id" : "PHP",
+                "value" : {
+                        "SumOfFunds" : 118594,
+                        "AverageOfFunds" : 4941.416666666667
+                }
+        },
+        {
+                "_id" : "EUR",
+                "value" : {
+                        "SumOfFunds" : 245069,
+                        "AverageOfFunds" : 4901.38
+                }
+        },
+        {
+                "_id" : "CNY",
+                "value" : {
+                        "SumOfFunds" : 470650,
+                        "AverageOfFunds" : 4954.210526315789
+                }
+        },
+        {
+                "_id" : "PLN",
+                "value" : {
+                        "SumOfFunds" : 90761,
+                        "AverageOfFunds" : 5042.277777777777
+                }
+        },
+        {
+                "_id" : "BWP",
+                "value" : {
+                        "SumOfFunds" : 4076,
+                        "AverageOfFunds" : 4076
+                }
+        },
+        {
+                "_id" : "ETB",
+                "value" : {
+                        "SumOfFunds" : 5436,
+                        "AverageOfFunds" : 5436
+                }
+        },
+        {
+                "_id" : "CDF",
+                "value" : {
+                        "SumOfFunds" : 12228,
+                        "AverageOfFunds" : 6114
+                }
+        },
+        {
+                "_id" : "KZT",
+                "value" : {
+                        "SumOfFunds" : 3788,
+                        "AverageOfFunds" : 3788
+                }
+        },
+        {
+                "_id" : "JPY",
+                "value" : {
+                        "SumOfFunds" : 60940,
+                        "AverageOfFunds" : 5078.333333333333
+                }
+        },
+        {
+                "_id" : "NIO",
+                "value" : {
+                        "SumOfFunds" : 9971,
+                        "AverageOfFunds" : 4985.5
+                }
+        },
+        {
+                "_id" : "NPR",
+                "value" : {
+                        "SumOfFunds" : 5792,
+                        "AverageOfFunds" : 5792
+                }
+        },
+        {
+                "_id" : "MYR",
+                "value" : {
+                        "SumOfFunds" : 4781,
+                        "AverageOfFunds" : 4781
+                }
+        },
+        {
+                "_id" : "MWK",
+                "value" : {
+                        "SumOfFunds" : 3574,
+                        "AverageOfFunds" : 3574
+                }
+        },
+        {
+                "_id" : "VND",
+                "value" : {
+                        "SumOfFunds" : 36156,
+                        "AverageOfFunds" : 4519.5
+                }
+        },
+        {
+                "_id" : "SEK",
+                "value" : {
+                        "SumOfFunds" : 70832,
+                        "AverageOfFunds" : 5059.428571428572
+                }
+        }
+]
