@@ -1,0 +1,192 @@
+C:\Users\wiche>curl -v -i -XPUT -d '{"a":1,"b":2,"c":"c","4":true}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc1?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23707/keys/doc1?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 22
+>
+* upload completely sent off: 22 out of 22 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVj7P3GgNEUpkymNl6NwYcIsvCwA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVj7P3GgNEUpkymNl6NwYcIsvCwA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23707>; rel="up"
+Link: </buckets/s23707>; rel="up"
+< Last-Modified: Wed, 30 Jun 2021 09:12:41 GMT
+Last-Modified: Wed, 30 Jun 2021 09:12:41 GMT
+< ETag: "wxwoJf5H30NdFPS4nCbSV"
+ETag: "wxwoJf5H30NdFPS4nCbSV"
+< Date: Wed, 30 Jun 2021 09:12:41 GMT
+Date: Wed, 30 Jun 2021 09:12:41 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 22
+Content-Length: 22
+
+<
+'{a:1,b:2,c:c,4:true}'* Connection #0 to host 127.0.0.1 left intact
+
+
+
+
+
+C:\Users\wiche>curl -v -i -XPUT -d '{"a":"a","e":8,"f":"g","4":null}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc2?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23707/keys/doc2?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 22
+>
+* upload completely sent off: 22 out of 22 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVj5Ptc+HCCUy5rEyyG0OuMWXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVj5Ptc+HCCUy5rEyyG0OuMWXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23707>; rel="up"
+Link: </buckets/s23707>; rel="up"
+< Last-Modified: Wed, 30 Jun 2021 09:19:26 GMT
+Last-Modified: Wed, 30 Jun 2021 09:19:26 GMT
+< ETag: "2L97ZMW6xMoXLsBCR1s28a"
+ETag: "2L97ZMW6xMoXLsBCR1s28a"
+< Date: Wed, 30 Jun 2021 09:19:26 GMT
+Date: Wed, 30 Jun 2021 09:19:26 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 22
+Content-Length: 22
+
+<
+'{a:a,e:8,f:g,4:null}'* Connection #0 to host 127.0.0.1 left intact
+
+
+
+C:\Users\wiche>curl -v -i -XPUT -d '{1:true,3:false,"a":"a",5:0}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc3?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23707/keys/doc3?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 26
+>
+* upload completely sent off: 26 out of 26 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVj7PLBSACCUy5rEyvNgccIsvCwA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVj7PLBSACCUy5rEyvNgccIsvCwA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23707>; rel="up"
+Link: </buckets/s23707>; rel="up"
+< Last-Modified: Wed, 30 Jun 2021 09:22:48 GMT
+Last-Modified: Wed, 30 Jun 2021 09:22:48 GMT
+< ETag: "4p4CcmSyq540PBfquBNCin"
+ETag: "4p4CcmSyq540PBfquBNCin"
+< Date: Wed, 30 Jun 2021 09:22:48 GMT
+Date: Wed, 30 Jun 2021 09:22:48 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 26
+Content-Length: 26
+
+<
+'{1:true,3:false,a:a,5:0}'* Connection #0 to host 127.0.0.1 left intact
+
+
+
+
+C:\Users\wiche>curl -v -i -XPUT -d '{"a":"b","c":"d","e":"f","g":0}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc4?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23707/keys/doc4?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 19
+>
+* upload completely sent off: 19 out of 19 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8iikmPoZfOrIgQomMeawMkVsCbvFlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8iikmPoZfOrIgQomMeawMkVsCbvFlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23707>; rel="up"
+Link: </buckets/s23707>; rel="up"
+< Last-Modified: Wed, 30 Jun 2021 09:24:41 GMT
+Last-Modified: Wed, 30 Jun 2021 09:24:41 GMT
+< ETag: "71qmldFqEQU9PZpUaNQclB"
+ETag: "71qmldFqEQU9PZpUaNQclB"
+< Date: Wed, 30 Jun 2021 09:24:41 GMT
+Date: Wed, 30 Jun 2021 09:24:41 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 19
+Content-Length: 19
+
+<
+'{a:b,c:d,e:f,g:0}'* Connection #0 to host 127.0.0.1 left intact
+
+
+
+
+
+C:\Users\wiche>curl -v -i -XPUT -d '{"f":1,"o":5,"p":"f","z":false}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc5?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23707/keys/doc5?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 23
+>
+* upload completely sent off: 23 out of 23 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8iikmPoYfdk+FCCUy5rEyHNgScIsvCwA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8iikmPoYfdk+FCCUy5rEyHNgScIsvCwA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23707>; rel="up"
+Link: </buckets/s23707>; rel="up"
+< Last-Modified: Wed, 30 Jun 2021 09:26:24 GMT
+Last-Modified: Wed, 30 Jun 2021 09:26:24 GMT
+< ETag: "6aEcKSMShAL4WKPHVPPMBy"
+ETag: "6aEcKSMShAL4WKPHVPPMBy"
+< Date: Wed, 30 Jun 2021 09:26:24 GMT
+Date: Wed, 30 Jun 2021 09:26:24 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 23
+Content-Length: 23
+
+<
+'{f:1,o:5,p:f,z:false}'* Connection #0 to host 127.0.0.1 left intact

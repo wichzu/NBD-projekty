@@ -1,0 +1,13 @@
+C:\Users\wiche>curl -i http://127.0.0.1:8098/buckets/s23707/keys/4nXs4CPuZ5cFJEjUzeGz7lLXXc6
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVj5PVFoMEUpkzGNlWLkr4BZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23707>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 09:51:37 GMT
+ETag: "2jg7HwARgBRfGijWyWfDxL"
+Date: Wed, 30 Jun 2021 09:54:22 GMT
+Content-Type: application/json
+Content-Length: 24
+
+'{co_ja_robie:nie_wiem}'

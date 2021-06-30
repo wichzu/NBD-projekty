@@ -1,0 +1,8 @@
+C:\Users\wiche>curl -i http://127.0.0.1:8098/buckets/s23707/keys/doc8
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 09:43:53 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

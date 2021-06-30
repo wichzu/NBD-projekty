@@ -1,0 +1,44 @@
+Zadanie 1.
+
+curl -v -i -XPUT -d '{"a":1,"b":2,"c":"c","4":true}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc1?returnbody=true
+curl -v -i -XPUT -d '{"a":"a","e":8,"f":"g","4":null}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc2?returnbody=true
+curl -v -i -XPUT -d '{1:true,3:false,"a":"a",5:0}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc3?returnbody=true
+curl -v -i -XPUT -d '{"a":"b","c":"d","e":"f","g":0}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc4?returnbody=true
+curl -v -i -XPUT -d '{"f":1,"o":5,"p":"f","z":false}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc5?returnbody=true
+
+Zadanie 2.
+
+curl -i http://127.0.0.1:8098/buckets/s23707/keys/doc3
+
+Zadanie 3.
+
+curl -i -XPUT -d '{"a":"b","c":"d","e":"f","g":0,"buziaczki":true}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc4?returnbody=true
+
+Zadanie 4.
+
+curl -i -XPUT -d '{"f":1,"o":5,"z":false}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc5?returnbody=true
+
+Zadanie 5.
+
+curl -i -XPUT -d '{"a":"a","e":18,"f":"g","4":null}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc2?returnbody=true
+
+Zadanie 6.
+
+curl -i -XDELETE http://127.0.0.1:8098/buckets/s23707/keys/doc1
+
+Zadanie 7.
+
+curl -i http://127.0.0.1:8098/buckets/s23707/keys/doc8
+
+Zadanie 8.
+
+curl -i -XPOST -d '{"co_ja_robie":"nie_wiem"}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys
+
+Zadanie 9.
+
+
+curl -i http://127.0.0.1:8098/buckets/s23707/keys/4nXs4CPuZ5cFJEjUzeGz7lLXXc6
+
+Zadanie 10.
+
+curl -i -XDELETE http://localhost:8098/buckets/s23707/keys/4nXs4CPuZ5cFJEjUzeGz7lLXXc6

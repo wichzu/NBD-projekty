@@ -1,0 +1,13 @@
+C:\Users\wiche>curl -i -XPUT -d '{"a":"b","c":"d","e":"f","g":0,"buziaczki":true}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23707/keys/doc4?returnbody=true
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgymDKBVI8iikmPoZfOrKAbMYMpkTGPFaGyC0Bt/ig0mHJLLc+Han4BNEBlpbfBpTOAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23707>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 09:32:15 GMT
+ETag: "3uhjohx25U7MpTQUXisL9j"
+Date: Wed, 30 Jun 2021 09:32:15 GMT
+Content-Type: application/json
+Content-Length: 34
+
+'{a:b,c:d,e:f,g:0,buziaczki:true}'
