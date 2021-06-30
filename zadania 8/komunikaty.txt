@@ -1,0 +1,5 @@
+Dodano studentke
+Dane studentki: {'name': 'Zuzanna', 'surname': 'Wicher', 'studentka': True}
+Co tu sie zadzialo: {'name': 'Zuzanna', 'surname': 'Wicher', 'studentka': False}
+Studentka zostala usunieta, tylko co teraz z pobraniem
+Czy nadal mozna ja pobrac: None
