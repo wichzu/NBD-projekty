@@ -1,0 +1,45 @@
+1. 
+MATCH (movies:Movie) RETURN movies
+
+2.
+MATCH (HW:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(HWMovies) RETURN HWMovies
+
+3.
+MATCH (HW:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(HWMovies)<-[:DIRECTED]-(directors) RETURN directors
+
+4.
+MATCH (HW:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(actors) RETURN actors, m
+
+5.
+MATCH (m:Movie)<-[:ACTED_IN]-(person)  WHERE (person)-[:ACTED_IN]->(:Movie { title: "The Matrix" }) RETURN m, person
+
+6.
+MATCH (actor:Person)-[:ACTED_IN]->(actorMovies) WITH actor, count(actorMovies) as cam WHERE cam > 0 RETURN actor, cam
+
+7.
+MATCH (people:Person)-[:WROTE]->(movie) WHERE (people)-[:DIRECTED]->(movie) RETURN people, movie
+
+8.
+MATCH (HW:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(HKMovies)<-[:ACTED_IN]-(KR:Person {name:"Keanu Reeves"}) 
+RETURN HKMovies, HW, KR
+
+9.
+CREATE (CaptainAmericaTheFirstAvenger:Movie {title:'Captain America: The First Avenger', released:2011, tagline:"When patriots become heroes"})
+CREATE (CE:Person {name: "Chris Evans", born:1981})
+CREATE(SLJ: Person {name: "Samuel L. Jackson", born:1948})
+MERGE (HW: Person {name: "Hugo Weaving", born:1960})
+CREATE (HA: Person {name: "Hayley Atwell", born:1982})
+CREATE (JJ: Person {name: "Joe Johnston", born:1950})
+CREATE (SMF:Person {name:'Stephen McFeely', born:1969})
+CREATE (CM: Person {name: "Christopher Markus", born:1970})
+CREATE 	(CE)-[:ACTED_IN {roles: ["Steve Rogers"]}]->(CaptainAmericaTheFirstAvenger),
+(SLJ)-[:ACTED_IN {roles: ["Nick Fury"]}]->(CaptainAmericaTheFirstAvenger),
+(HA)-[:ACTED_IN {roles: ["Peggy Carter"]}]->(CaptainAmericaTheFirstAvenger),
+(JJ)-[:DIRECTED]->(CaptainAmericaTheFirstAvenger),
+(CM)-[:WROTE]->(CaptainAmericaTheFirstAvenger)
+Merge (HW)-[:ACTED_IN {roles: ["Johann Schmidt"]}]->(CaptainAmericaTheFirstAvenger)
+
+MATCH (people:Person)-[relatedTo]-(CaptainAmericaTheFirstAvenger:Movie {title: "Captain America: The First Avenger"}) RETURN people, relatedTo, CaptainAmericaTheFirstAvenger
+
+
+
